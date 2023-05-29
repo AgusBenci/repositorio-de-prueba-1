@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+body{
+    width: 100%;
+    margin: 0 auto;
+    height: 1000px;
+}
+
+/*HEADER*/
+
+.logo_venex_header{
+    background: #2D2D33;
+}
+
+.logo_venex_header a .img_header{
+    height: 120px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+header .texto_principal{
+    position: relative;
+    left: 70px;
+    bottom: 30px;
+    font-size: 8px;
+    color: #140A15;
+}
+
+/*FIN-HEADER*/
+
+
+---/*header-nav*/---
+
+header nav ul{
+    position: relative;
+    left: 600px;
+}
+
+nav{
+    background: #f0ecec;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul .nav_lista{
+    margin: 0 50px;
+}
+
+header ul{
+    position: relative;
+    left: 450px;
+    list-style: none;
+    padding: 20px 0px;   
+}
+
+nav ul li:hover{
+    border-bottom: #0c0909 solid 2px;
+    
+}
+
+ nav ul li a{
+    text-decoration: none;
+    color: #0c0909;
+    font-size: 18px;
+}
+
+
+header nav a{
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+
+---/*MAIN*/---
+
+.galeria{
+    position: relative;
+    top: 300px;
+   
+}
+
+.notbook-lenovo{
+    float: left;
+    margin: 10px 20px;
+    width: 250px;
+}
+
+.notbook-lenovo{
+    position: relative;
+    left: 50px;
+}
+
+.notbook-lenovo .imagen img{
+    width: 100%;
+    height: 250px;
+}
+
+.notbook-lenovo{
+    border: 3px solid #0c0909
+
+}
+
+.pie{
+    text-align: center;
+    border: 1px solid #0c0909;
+}
+
+
+.galeria{
+    position: relative;
+    top: 50px;
+    left:300px;
+}
+
+
+
+footer{
+    position: absolute;
+    top: 1000px;
+    height: 250px;
+    width: 100%;
+    background: #140A15;
+    color: #f0ecec;
+}
+
+.pie_de_paguina{
+    position: relative;
+    top: 30px;
+    left: 45%;
+}
+
+.lista_de_contacto{
+    position: absolute;
+    top: 20px;
+    right: 2500px;
+}
+
+
+.derechos_de_autor{
+    position: absolute;
+    top: 180px;
+}
